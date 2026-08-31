@@ -191,7 +191,7 @@ nav a.active{
   top:50%;
   width:210px;
   transform:translate(-50%,-50%);
-  animation:rotate 18s ease-in-out infinite;
+  animation:prismSpin 18s linear infinite;
   filter:drop-shadow(0 0 26px rgba(190,235,255,.8));
 }
 
@@ -258,15 +258,14 @@ nav a.active{
   filter:blur(12px);
 }
 
-@keyframes rotate{
-  0%,100%{
-    transform:translate(-50%,-50%) rotate(-1deg);
+@keyframes prismSpin{
+  from{
+    transform:translate(-50%,-50%) rotateY(0deg);
   }
-  50%{
-    transform:translate(-50%,-50%) rotate(1deg);
+  to{
+    transform:translate(-50%,-50%) rotateY(360deg);
   }
 }
-
 /* HERO DETAILS */
 
 .dots{
