@@ -189,81 +189,69 @@ nav a.active{
   position:absolute;
   left:50%;
   top:50%;
-  width:210px;
+  width:190px;
+  height:410px;
   transform:translate(-50%,-50%);
-  animation:prismSpin 18s linear infinite;
-  filter:drop-shadow(0 0 26px rgba(190,235,255,.8));
+  perspective:900px;
+  z-index:5;
 }
 
-.prism svg{
+.prism-3d{
   width:100%;
-  display:block;
+  height:100%;
+  position:relative;
+  transform-style:preserve-3d;
+  animation:prismSpin 18s linear infinite;
 }
 
-.beam{
+.prism-3d .face{
   position:absolute;
-  left:0;
-  right:0;
-  top:50%;
-  height:3px;
-  transform:translateY(-50%);
-  background:
-    linear-gradient(
-      90deg,
-      rgba(255,255,255,0),
-      rgba(255,255,255,.95) 42%,
-      #fff 49%,
-      #fff 51%,
-      #f4e9cf 56%,
-      #efb06e 64%,
-      #e98fb2 72%,
-      #9b8fe5 82%,
-      #5bd8ff 100%
-    );
-  box-shadow:
-    0 0 12px rgba(255,255,255,.8),
-    0 0 28px rgba(170,220,255,.5);
-}
-
-.beam:before{
-  content:"";
-  position:absolute;
-  left:0;
-  top:-10px;
-  width:52%;
-  height:23px;
+  width:100%;
+  height:100%;
+  border:2px solid rgba(235,250,255,.75);
   background:linear-gradient(
-    90deg,
-    transparent,
-    rgba(255,255,255,.18),
-    rgba(255,255,255,.75)
+    135deg,
+    rgba(255,255,255,.42),
+    rgba(130,220,255,.08),
+    rgba(180,130,255,.16),
+    rgba(255,255,255,.25)
   );
-  filter:blur(8px);
+  box-shadow:inset 0 0 25px rgba(220,245,255,.15);
+  backface-visibility:visible;
 }
 
-.glow{
-  position:absolute;
-  left:50%;
-  top:50%;
-  width:330px;
-  height:330px;
-  transform:translate(-50%,-50%);
-  border-radius:50%;
-  background:radial-gradient(
-    circle,
-    rgba(190,235,255,.22),
-    rgba(100,180,255,.08) 35%,
-    transparent 70%
-  );
-  filter:blur(12px);
+.prism-3d .front{
+  transform:translateZ(55px);
+}
+
+.prism-3d .back{
+  transform:rotateY(180deg) translateZ(55px);
+}
+
+.prism-3d .left{
+  transform:rotateY(-60deg) translateZ(55px);
+}
+
+.prism-3d .right{
+  transform:rotateY(60deg) translateZ(55px);
+}
+
+.prism-3d .top{
+  height:110px;
+  transform:rotateX(90deg) translateZ(55px);
+}
+
+.prism-3d .bottom{
+  height:110px;
+  transform:rotateX(-90deg) translateZ(355px);
 }
 
 @keyframes prismSpin{
   from{
-    transform:translate(-50%,-50%) rotateY(0deg);
+    transform:rotateY(0deg);
   }
   to{
-    transform:translate(-50%,-50%) rotateY(360deg);
+    transform:rotateY(360deg);
   }
 }
 /* HERO DETAILS */
