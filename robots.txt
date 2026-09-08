@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://prisma-realm.alkanpher.workers.dev/sitemap.xml
