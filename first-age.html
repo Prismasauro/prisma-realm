@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Prisma Realm — The First Age</title>
+
+    <link rel="stylesheet" href="style.css">
+	
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&display=swap" rel="stylesheet">
+
+</head>	
+	
+
+
+<body class="first-age-page">
+
+<header>
+    <a class="brand" href="index.html">
+        <span>◇</span>
+        <b>PRISMA REALM</b>
+        <small>WHERE IMAGINATION TAKES FORM</small>
+    </a>
+
+    <nav>
+        <a href="index.html" data-i18n="gallery">Gallery</a>
+        <a class="active" href="worlds.html" data-i18n="worlds">Worlds</a>
+        <a href="#categories" data-i18n="categories">Categories</a>
+        <a href="#about" data-i18n="about">About</a>
+        <a href="#contact" data-i18n="contact">Contact</a>
+
+        <span class="language-switch">
+            <button id="language-toggle" onclick="toggleLanguage()">EN</button>
+        </span>
+    </nav>
+
+    <div class="tools">⌕　☰</div>
+</header>
+
+
+<main>
+
+    <section class="first-age-hero">
+
+        <img
+            class="first-age-hero-image"
+            src="first-age-hero.png"
+            alt="Map of Beleriand — The First Age">
+
+        <div class="first-age-hero-overlay">
+
+            <h1 data-i18n="firstAge">THE FIRST AGE</h1>
+
+            <p data-i18n="firstAgeSubtitle">
+    The Elder Days — the beginning of the great history of Arda.
+</p>
+
+        </div>
+
+    </section>
+
+
+    <section class="first-age-body">
+
+    <div class="first-age-gallery">
+
+        <!-- 01 -->
+        <article class="first-age-card">
+            <img src="Immagini 1° Era/Eru Iluvatar.png" alt="Eru Ilúvatar">
+            <div class="first-age-plaque">
+                <h3 data-i18n="eruIluvatar">Eru Ilúvatar</h3>
+                <p data-i18n="eruIluvatarDesc">All'inizio esiste Eru Ilúvatar, il Creatore, origine di tutto ciò che sarà Arda.</p>
+            </div>
+        </article>
+
+        <!-- 02 -->
+        <article class="first-age-card">
+            <img src="Immagini 1° Era/Canto degli Ainur.png" alt="Il Canto degli Ainur">
+            <div class="first-age-plaque">
+                <h3 data-i18n="ainurSong">Il Canto degli Ainur</h3>
+                <p data-i18n="ainurSongDesc">Gli Ainur intonano la Grande Musica, dalla quale nasce la visione del mondo futuro.</p>
+            </div>
+        </article>
+
+        <!-- 03 -->
+        <article class="first-age-card">
+            <img src="Immagini 1° Era/Ainur e Arda.png" alt="Gli Ainur e Arda">
+            <div class="first-age-plaque">
+                <h3 data-i18n="ardaVision">La visione di Arda</h3>
+                <p data-i18n="ardaVisionDesc">La Musica prende forma nella visione di Arda, il mondo destinato a diventare realtà.</p>
+            </div>
+        </article>
+
+        <!-- 04 -->
+        <article class="first-age-card">
+            <img src="Immagini 1° Era/Valar contro Melkor.png" alt="I Valar contro Melkor">
+            <div class="first-age-plaque">
+                <h3 data-i18n="valarAgainstMelkor">I Valar contro Melkor</h3>
+                <p data-i18n="valarAgainstMelkorDesc">Melkor si oppone all'ordine degli altri Ainur e diventa la prima grande forza di discordia.</p>
+            </div>
+        </article>
+
+        <!-- 05 -->
+        <article class="first-age-card">
+            <img src="Immagini 1° Era/Guerra tra Valar e Melkor.png" alt="La guerra tra i Valar e Melkor">
+            <div class="first-age-plaque">
+                <h3 data-i18n="firstWar">La prima guerra</h3>
+                <p data-i18n="firstWarDesc">I Valar combattono Melkor per il dominio di Arda, sconvolgendo il mondo ancora giovane.</p>
+            </div>
+        </article>
+
+        <!-- 06 -->
+        <article class="first-age-card">
+            <img src="Immagini 1° Era/Discesa dei Valar su Arda.png" alt="La discesa dei Valar su Arda">
+            <div class="first-age-plaque">
+                <h3 data-i18n="valarDescent">La discesa dei Valar</h3>
+                <p data-i18n="valarDescentDesc">I Valar entrano in Arda per plasmarla e prepararla alla venuta dei Figli di Ilúvatar.</p>
+            </div>
+        </article>
+
+        <!-- 07 -->
+        <article class="first-age-card">
+            <img src="Immagini 1° Era/Le 2 lampade.png" alt="Le Due Lampade">
+            <div class="first-age-plaque">
+                <h3 data-i18n="twoLamps">Le Due Lampade</h3>
+                <p data-i18n="twoLampsDesc">Illuin e Ormal illuminano Arda, portando luce nelle terre ancora prive del Sole e della Luna.</p>
+            </div>
+        </article>
+
+        <!-- 08 -->
+        <article class="first-age-card">
+            <img src="Immagini 1° Era/Risveglio degli elfi.png" alt="Il risveglio degli Elfi">
+            <div class="first-age-plaque">
+                <h3 data-i18n="awakeningOfElves">Il risveglio degli Elfi</h3>
+                <p data-i18n="awakeningOfElvesDesc">A Cuiviénen si risvegliano i primi Elfi, i Primogeniti di Ilúvatar.</p>
+            </div>
+        </article>
+
+        <!-- 09 -->
+        <article class="first-age-card">
+            <img src="Immagini 1° Era/Eldar.png" alt="Gli Eldar">
+            <div class="first-age-plaque">
+                <h3 data-i18n="eldar">Gli Eldar</h3>
+                <p data-i18n="eldarDesc">Molti Elfi accettano l'invito dei Valar e intraprendono la Grande Marcia verso Occidente.</p>
+            </div>
+        </article>
+
+        <!-- 10 -->
+        <article class="first-age-card">
+            <img src="Immagini 1° Era/Feanor crea i Silmaril.png" alt="Fëanor crea i Silmaril">
+            <div class="first-age-plaque">
+                <h3 data-i18n="silmarilsCreation">La creazione dei Silmaril</h3>
+                <p data-i18n="silmarilsCreationDesc">Fëanor forgia i tre Silmaril, racchiudendo in essi la luce dei Due Alberi di Valinor.</p>
+            </div>
+        </article>
+
+        <!-- 11 -->
+<article class="first-age-card">
+    <img src="Immagini 1° Era/Melkor e Ungoliant.png" alt="Melkor e Ungoliant">
+    <div class="first-age-plaque">
+        <h3 data-i18n="melkorUngoliant">Melkor e Ungoliant</h3>
+        <p data-i18n="melkorUngoliantDesc">Melkor si allea con Ungoliant, la creatura dell'oscurità che divora la luce degli Alberi.</p>
+    </div>
+</article>
+
+<!-- 12 -->
+<article class="first-age-card">
+    <img src="Immagini 1° Era/Melkor uccide Finwe.png" alt="Melkor uccide Finwë">
+    <div class="first-age-plaque">
+        <h3 data-i18n="deathOfFinwe">La morte di Finwë</h3>
+        <p data-i18n="deathOfFinweDesc">Melkor torna in azione, uccide Finwë e sottrae i Silmaril dalla casa di Fëanor.</p>
+    </div>
+</article>
+
+        <!-- 13 -->
+        <article class="first-age-card">
+            <img src="Immagini 1° Era/Melkor e il furto dei Silmaril.png" alt="Il furto dei Silmaril">
+            <div class="first-age-plaque">
+                <h3 data-i18n="silmarilsTheft">Il furto dei Silmaril</h3>
+                <p data-i18n="silmarilsTheftDesc">Melkor fugge da Valinor portando con sé i Silmaril, mentre la luce degli Alberi viene distrutta.</p>
+            </div>
+        </article>
+
+        <!-- 14 -->
+        <article class="first-age-card">
+            <img src="Immagini 1° Era/Giuramento di Feanor.png" alt="Il Giuramento di Fëanor">
+            <div class="first-age-plaque">
+                <h3 data-i18n="feanorOath">Il Giuramento di Fëanor</h3>
+                <p data-i18n="feanorOathDesc">Fëanor e i suoi figli giurano di perseguire chiunque possieda o sottragga i Silmaril.</p>
+            </div>
+        </article>
+
+        <!-- 15 -->
+        <article class="first-age-card">
+            <img src="Immagini 1° Era/Strage di Alqualonde.png" alt="La strage di Alqualondë">
+            <div class="first-age-plaque">
+                <h3 data-i18n="alqualonde">La strage di Alqualondë</h3>
+                <p data-i18n="alqualondeDesc">I Noldor attaccano i Teleri per impossessarsi delle loro navi. È il primo dei grandi massacri fratricidi.</p>
+            </div>
+        </article>
+
+        <!-- 16 -->
+        <article class="first-age-card">
+            <img src="Immagini 1° Era/Giudizio di Mandos.png" alt="Il Giudizio di Mandos">
+            <div class="first-age-plaque">
+                <h3 data-i18n="judgmentOfMandos">Il Giudizio di Mandos</h3>
+                <p data-i18n="judgmentOfMandosDesc">Mandos pronuncia il giudizio sui Noldor e sulle conseguenze della loro ribellione.</p>
+            </div>
+        </article>
+
+<!-- 18 -->
+<article class="first-age-card">
+    <img src="Immagini 1° Era/Sole e Luna.png" alt="Il Sole e la Luna">
+    <div class="first-age-plaque">
+        <h3 data-i18n="sunAndMoon">Il Sole e la Luna</h3>
+        <p data-i18n="sunAndMoonDesc">Dopo la distruzione degli Alberi, il Sole e la Luna sorgono finalmente sui cieli di Arda.</p>
+    </div>
+</article>
+
+        <!-- 17 -->
+        <article class="first-age-card">
+            <img src="Immagini 1° Era/Fingolfin in Helcaraxe.png" alt="Fingolfin attraversa il Helcaraxë">
+            <div class="first-age-plaque">
+                <h3 data-i18n="helcaraxe">Attraverso il Helcaraxë</h3>
+                <p data-i18n="helcaraxeDesc">Fingolfin e i suoi seguaci affrontano il terribile passaggio del Ghiaccio Macinatore per raggiungere la Terra di Mezzo.</p>
+            </div>
+        </article>
+
+        
+        
+
+        <!-- 19 -->
+        <article class="first-age-card">
+            <img src="Immagini 1° Era/Mappa geopolitica Beleriand.png" alt="Il Beleriand">
+            <div class="first-age-plaque">
+                <h3 data-i18n="beleriand">Il Beleriand</h3>
+                <p data-i18n="beleriandDesc">I Noldor giungono nel Beleriand e sorgono nuovi regni elfici destinati a diventare il cuore della Prima Era.</p>
+            </div>
+        </article>
+
+        <!-- 20 -->
+        <article class="first-age-card">
+            <img src="Immagini 1° Era/Morgoth si riorganizza.png" alt="Morgoth si riorganizza">
+            <div class="first-age-plaque">
+                <h3 data-i18n="morgothRegroups">Morgoth si riorganizza</h3>
+                <p data-i18n="morgothRegroupsDesc">Nel nord, Morgoth ricostruisce Angband e raduna le forze che presto minacceranno tutti i regni del Beleriand.</p>
+            </div>
+        </article>
+
+        <!-- 21 -->
+        <article class="first-age-card">
+            <img src="Immagini 1° Era/Dagor-nuin-Giliath.png" alt="La Dagor-nuin-Giliath">
+            <div class="first-age-plaque">
+                <h3 data-i18n="dagorNuinGiliath">La Dagor-nuin-Giliath</h3>
+                <p data-i18n="dagorNuinGiliathDesc">I Noldor affrontano gli eserciti di Morgoth nella prima grande battaglia dopo il loro ritorno nella Terra di Mezzo.</p>
+            </div>
+        </article>
+
+        <!-- 22 -->
+        <article class="first-age-card">
+            <img src="Immagini 1° Era/Caduta di fingolfin.png" alt="La caduta di Fingolfin">
+            <div class="first-age-plaque">
+                <h3 data-i18n="fallOfFingolfin">La caduta di Fingolfin</h3>
+                <p data-i18n="fallOfFingolfinDesc">Fingolfin sfida Morgoth alle porte di Angband e combatte da solo contro il Signore Oscuro.</p>
+            </div>
+        </article>
+
+        <!-- 23 -->
+        <article class="first-age-card">
+            <img src="Immagini 1° Era/Beren incontra Luthien.png" alt="Beren incontra Lúthien">
+            <div class="first-age-plaque">
+                <h3 data-i18n="berenMeetsLuthien">Beren incontra Lúthien</h3>
+                <p data-i18n="berenMeetsLuthienDesc">Nella foresta di Doriath, Beren incontra Lúthien e ha inizio una delle più grandi storie d'amore di Arda.</p>
+            </div>
+        </article>
+
+        
+
+        <!-- 25 -->
+        <article class="first-age-card">
+            <img src="Immagini 1° Era/Beren strappa il Silmaril da Morgoth.png" alt="Beren strappa il Silmaril da Morgoth">
+            <div class="first-age-plaque">
+                <h3 data-i18n="silmaril">Il Silmaril</h3>
+                <p data-i18n="silmarilDesc">Beren strappa un Silmaril dalla corona di Morgoth e porta a compimento la missione.</p>
+            </div>
+        </article>
+
+        <!-- 26 -->
+        <article class="first-age-card">
+            <img src="Immagini 1° Era/Beren e Charcaroth.png" alt="Beren e Carcharoth">
+            <div class="first-age-plaque">
+                <h3 data-i18n="berenCarcharoth">Beren e Carcharoth</h3>
+                <p data-i18n="berenCarcharothDesc">Carcharoth inghiotte il Silmaril e, sconvolto dal suo potere, fugge attraverso Doriath inseguito da Beren e dai suoi compagni.</p>
+            </div>
+        </article>
+
+        <!-- 27 -->
+        <article class="first-age-card">
+            <img src="Immagini 1° Era/Beren recupera il silmaril.png" alt="Beren recupera il Silmaril">
+            <div class="first-age-plaque">
+                <h3 data-i18n="silmarilRecovered">Il Silmaril recuperato</h3>
+                <p data-i18n="silmarilRecoveredDesc">La caccia a Carcharoth conduce alla riconquista del Silmaril e alla conclusione della grande impresa di Beren e Lúthien.</p>
+            </div>
+        </article>
+
+        <!-- 28 -->
+        <article class="first-age-card">
+            <img src="Immagini 1° Era/Turin e Glaurung.png" alt="Túrin e Glaurung">
+            <div class="first-age-plaque">
+                <h3 data-i18n="turinGlaurung">Túrin e Glaurung</h3>
+                <p data-i18n="turinGlaurungDesc">La vita di Túrin diventa una delle più oscure tragedie della Prima Era, legata indissolubilmente al drago Glaurung.</p>
+            </div>
+        </article>
+
+        <!-- 29 -->
+        <article class="first-age-card">
+            <img src="Immagini 1° Era/La caduta di Nargothrond.png" alt="La caduta di Nargothrond">
+            <div class="first-age-plaque">
+                <h3 data-i18n="fallOfNargothrond">La caduta di Nargothrond</h3>
+                <p data-i18n="fallOfNargothrondDesc">Glaurung conduce gli eserciti di Morgoth alla distruzione del grande regno sotterraneo.</p>
+            </div>
+        </article>
+
+        <!-- 30 -->
+        <article class="first-age-card">
+            <img src="Immagini 1° Era/Gondolin caduta.png" alt="La caduta di Gondolin">
+            <div class="first-age-plaque">
+                <h3 data-i18n="fallOfGondolin">La caduta di Gondolin</h3>
+                <p data-i18n="fallOfGondolinDesc">Il regno nascosto di Turgon viene scoperto e distrutto dalle forze di Morgoth.</p>
+            </div>
+        </article>
+
+        <!-- 31 -->
+        <article class="first-age-card">
+            <img src="Immagini 1° Era/Tuor e Idril che fuggono da Gondolin caduta.png" alt="Tuor e Idril fuggono da Gondolin">
+            <div class="first-age-plaque">
+                <h3 data-i18n="escapeFromGondolin">La fuga da Gondolin</h3>
+                <p data-i18n="escapeFromGondolinDesc">Tuor, Idril e i superstiti riescono a fuggire dalla città in rovina e a raggiungere le foci del Sirion.</p>
+            </div>
+        </article>
+
+        <!-- 32 -->
+        <article class="first-age-card">
+            <img src="Immagini 1° Era/Erendil, Elwing, Elrond ed Elros.png" alt="Eärendil, Elwing, Elrond ed Elros">
+            <div class="first-age-plaque">
+                <h3 data-i18n="earendilElwing">Eärendil ed Elwing</h3>
+                <p data-i18n="earendilElwingDesc">Alle foci del Sirion si intrecciano le vicende delle ultime grandi stirpi degli Elfi e degli Uomini.</p>
+            </div>
+        </article>
+
+        <!-- 33 -->
+        <article class="first-age-card">
+            <img src="Immagini 1° Era/Elwing che raggiunge Erendil trasformata in uccello.png" alt="Elwing raggiunge Eärendil">
+            <div class="first-age-plaque">
+                <h3 data-i18n="elwingReachesEarendil">Elwing raggiunge Eärendil</h3>
+                <p data-i18n="elwingReachesEarendilDesc">Elwing raggiunge Eärendil portando il Silmaril, dopo la distruzione dei rifugi del Sirion.</p>
+            </div>
+        </article>
+
+        <!-- 34 -->
+        <article class="first-age-card">
+            <img src="Immagini 1° Era/Erendil in viaggio per Valinor.png" alt="Eärendil in viaggio verso Valinor">
+            <div class="first-age-plaque">
+                <h3 data-i18n="earendilJourney">Il viaggio di Eärendil</h3>
+                <p data-i18n="earendilJourneyDesc">Eärendil naviga verso Occidente alla ricerca della terra dei Valar, portando con sé il Silmaril.</p>
+            </div>
+        </article>
+
+        <!-- 35 -->
+        <article class="first-age-card">
+            <img src="Immagini 1° Era/Erendil raggiunge le coste di Aman.png" alt="Eärendil raggiunge le coste di Aman">
+            <div class="first-age-plaque">
+                <h3 data-i18n="earendilReachesAman">Eärendil raggiunge Aman</h3>
+                <p data-i18n="earendilReachesAmanDesc">Dopo il lungo viaggio attraverso i mari dell'Occidente, Eärendil raggiunge le coste di Aman.</p>
+            </div>
+        </article>
+
+        <!-- 36 -->
+        <article class="first-age-card">
+            <img src="Immagini 1° Era/Erendil chiede aiuto ai Valar.png" alt="Eärendil chiede aiuto ai Valar">
+            <div class="first-age-plaque">
+                <h3 data-i18n="pleaToValar">La supplica ai Valar</h3>
+                <p data-i18n="pleaToValarDesc">Eärendil porta ai Valar la richiesta di aiuto degli Elfi e degli Uomini contro Morgoth.</p>
+            </div>
+        </article>
+
+        <!-- 37 -->
+        <article class="first-age-card">
+            <img src="Immagini 1° Era/Vingilot volante.png" alt="Vingilot">
+            <div class="first-age-plaque">
+                <h3 data-i18n="vingilot">Vingilot</h3>
+                <p data-i18n="vingilotDesc">Eärendil diventa il portatore del Silmaril nei cieli, simbolo di speranza per coloro che ancora combattono contro Morgoth.</p>
+            </div>
+        </article>
+
+<!-- 42 -->
+<article class="first-age-card">
+    <img src="Immagini 1° Era/Maedhros con Elrond ed Elros.png" alt="Maedhros, Elrond ed Elros">
+    <div class="first-age-plaque">
+        <h3 data-i18n="lastChildren">Gli ultimi figli delle grandi stirpi</h3>
+        <p data-i18n="lastChildrenDesc">Le vicende della Prima Era lasciano un'eredità destinata a sopravvivere nelle Ere successive.</p>
+    </div>
+</article>
+
+        <!-- 38 -->
+        <article class="first-age-card">
+            <img src="Immagini 1° Era/Morgoth e Sauron si organizzano per la battaglia finale.png" alt="Morgoth e Sauron">
+            <div class="first-age-plaque">
+                <h3 data-i18n="finalConfrontationPreparation">La preparazione dello scontro finale</h3>
+                <p data-i18n="finalConfrontationPreparationDesc">Morgoth raccoglie le sue ultime grandi forze per affrontare l'esercito dei Valar.</p>
+            </div>
+        </article>
+
+        <!-- 39 -->
+        <article class="first-age-card">
+            <img src="Immagini 1° Era/Morgoth prepara l'esercito per lo scontro finale.png" alt="L'esercito di Morgoth">
+            <div class="first-age-plaque">
+                <h3 data-i18n="morgothArmy">L'esercito di Morgoth</h3>
+                <p data-i18n="morgothArmyDesc">Orchi, Balrog, draghi e altre creature oscure vengono schierati per la battaglia decisiva.</p>
+            </div>
+        </article>
+
+        <!-- 40 -->
+        <article class="first-age-card">
+            <img src="Immagini 1° Era/Guerra dell'Ira.png" alt="La Guerra dell'Ira">
+            <div class="first-age-plaque">
+                <h3 data-i18n="warOfWrath">La Guerra dell'Ira</h3>
+                <p data-i18n="warOfWrathDesc">Gli eserciti dell'Occidente giungono nella Terra di Mezzo e ha inizio la guerra che porrà fine al dominio di Morgoth.</p>
+            </div>
+        </article>
+
+        <!-- 41 -->
+        <article class="first-age-card">
+            <img src="Immagini 1° Era/Erendil abbatte Ancalagon.png" alt="Eärendil abbatte Ancalagon">
+            <div class="first-age-plaque">
+                <h3 data-i18n="fallOfAncalagon">La caduta di Ancalagon</h3>
+                <p data-i18n="fallOfAncalagonDesc">Eärendil affronta Ancalagon il Nero nei cieli e contribuisce alla definitiva sconfitta delle forze di Morgoth.</p>
+            </div>
+        </article>
+
+        <article class="first-age-card">
+    <img src="Immagini 1° Era/Cattura di Morgoth.png" alt="La cattura di Morgoth">
+    <div class="first-age-plaque">
+        <h3 data-i18n="captureOfMorgoth">La cattura di Morgoth</h3>
+        <p data-i18n="captureOfMorgothDesc">Dopo la sconfitta, Morgoth viene catturato dalle forze dei Valar e privato del suo potere.</p>
+    </div>
+</article>
+
+        <!-- 43 -->
+        <article class="first-age-card">
+            <img src="Immagini 1° Era/Morgoth al cospetto di Eonwe.png" alt="Morgoth al cospetto di Eönwë">
+            <div class="first-age-plaque">
+                <h3 data-i18n="morgothDefeated">Morgoth sconfitto</h3>
+                <p data-i18n="morgothDefeatedDesc">La Guerra dell'Ira termina con la sconfitta di Morgoth e la caduta del suo dominio.</p>
+            </div>
+        </article>
+
+<!-- 47 -->
+<article class="first-age-card">
+    <img src="Immagini 1° Era/Riforgiatura della corona di Morgoth.png" alt="La corona di Morgoth">
+    <div class="first-age-plaque">
+        <h3 data-i18n="morgothCrown">La corona di Morgoth</h3>
+        <p data-i18n="morgothCrownDesc">La corona che aveva contenuto i Silmaril rimane come testimonianza della grande caduta del Signore Oscuro.</p>
+    </div>
+</article>
+
+        <!-- 44 -->
+        <!--
+<article class="first-age-card">
+    <img src="Immagini 1° Era/Morgoth con collare.png" alt="Morgoth con il collare">
+    <div class="first-age-plaque">
+        <h3 data-i18n="morgothPrisoner">Il prigioniero</h3>
+        <p data-i18n="morgothPrisonerDesc">Il Signore Oscuro viene catturato e privato del potere che aveva esercitato sulla Terra di Mezzo.</p>
+    </div>
+</article>
+-->
+
+        <!-- 45 -->
+        <article class="first-age-card">
+            <img src="Immagini 1° Era/Morgoth condotto alle porte del vuoto.png" alt="Morgoth condotto alle porte del Vuoto">
+            <div class="first-age-plaque">
+                <h3 data-i18n="gatesOfVoid">Alle porte del Vuoto</h3>
+                <p data-i18n="gatesOfVoidDesc">Morgoth viene condotto davanti alla soglia oltre la quale sarà bandito per sempre.</p>
+            </div>
+        </article>
+
+        <!-- 46 -->
+        <article class="first-age-card">
+            <img src="Immagini 1° Era/Morgoth gettato nel vuoto.png" alt="Morgoth gettato nel Vuoto">
+            <div class="first-age-plaque">
+                <h3 data-i18n="morgothInVoid">Morgoth nel Vuoto</h3>
+                <p data-i18n="morgothInVoidDesc">Morgoth viene espulso oltre le mura del mondo e la sua presenza in Arda giunge alla fine.</p>
+            </div>
+        </article>
+
+        
+
+        <!-- 48 -->
+        <article class="first-age-card">
+            <img src="Immagini 1° Era/Scomparsa della gran parte del Beleriand.png" alt="La distruzione del Beleriand">
+            <div class="first-age-plaque">
+                <h3 data-i18n="endOfBeleriand">La fine del Beleriand</h3>
+                <p data-i18n="endOfBeleriandDesc">La Guerra dell'Ira sconvolge il continente: gran parte del Beleriand sprofonda nelle acque e la Prima Era giunge al termine.</p>
+            </div>
+        </article>
+
+    </div>
+
+</section>
+
+</main>
+
+<div id="image-modal" class="image-modal">
+    <div class="image-modal-content">
+        <img id="modal-image" src="" alt="">
+        <div class="image-modal-actions">
+    <button id="download-hd" type="button">SCARICA HD</button>
+    <button id="close-modal">CHIUDI</button>
+</div>
+    </div>
+</div>
+<script src="language.js"></script>
+
+
+<script>
+document.querySelectorAll('.first-age-card img').forEach(img => {
+    img.onclick = function() {
+        document.getElementById('modal-image').src = this.src;
+        document.getElementById('modal-image').alt = this.alt;
+        document.getElementById('image-modal').style.display = 'flex';
+    };
+});
+document.getElementById('download-hd').onclick = function() {
+    const image = document.getElementById('modal-image');
+
+    if (image.src.includes('Eru%20Iluvatar.png')) {
+        const link = document.createElement('a');
+        link.href = 'Immagini 1° Era/Immagini HD/Eru Iluvatar.png';
+        link.download = 'Eru Iluvatar HD.png';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    }
+};
+
+
+document.getElementById('close-modal').onclick = function() {
+    document.getElementById('image-modal').style.display = 'none';
+	
+	};
+	
+
+
+document.getElementById('image-modal').onclick = function(e) {
+    if (e.target === this) {
+        this.style.display = 'none';
+    }
+};
+</script>
+</body>
+</html>
