@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Prisma Realm — The Second Age</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        .second-age-body {
+            background:
+                linear-gradient(rgba(10, 8, 7, 0.45), rgba(10, 8, 7, 0.62)),
+                url("second-age-body.png") center top / cover fixed no-repeat;
+        }
+    </style>
+</head>
+
+<body class="first-age-page">
+
+<header>
+    <a class="brand" href="index.html">
+        <span>◇</span>
+        <b>PRISMA REALM</b>
+        <small>WHERE IMAGINATION TAKES FORM</small>
+    </a>
+
+    <nav>
+        <a href="index.html" data-i18n="gallery">Gallery</a>
+        <a class="active" href="worlds.html" data-i18n="worlds">Worlds</a>
+        <a href="#categories" data-i18n="categories">Categories</a>
+        <a href="#about" data-i18n="about">About</a>
+        <a href="#contact" data-i18n="contact">Contact</a>
+
+        <span class="language-switch">
+            <button id="language-toggle" onclick="toggleLanguage()">EN</button>
+        </span>
+    </nav>
+
+    <div class="tools">⌕　☰</div>
+</header>
+
+<main>
+
+    <section class="first-age-hero">
+
+        <img
+            class="first-age-hero-image"
+            src="second-age-map.png"
+            alt="Map of Arda — The Second Age">
+
+        <div class="first-age-hero-overlay">
+            <h1 data-i18n="secondAge">THE SECOND AGE</h1>
+
+            <p data-i18n="secondAgeSubtitle">
+                The rise and fall of kingdoms, Númenor and the forging of the Rings.
+            </p>
+        </div>
+
+    </section>
+
+    <section class="first-age-body second-age-body">
+
+        <div class="first-age-gallery">
+        <!-- 1 -->
+
+        
+
+
+        
+
+
+        
+
+
+        <!-- 01 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Lindon e i porti grigi.png" alt="Lindon e i Porti Grigi">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle1">Lindon e i Porti Grigi</h3>
+                <p data-i18n="saDesc1">Lindon e i porti occidentali degli Elfi diventano il centro della presenza elfica nella Terra di Mezzo.</p>
+            </div>
+        </article>
+        <!-- 2 -->
+
+
+        <!-- 02 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Numenor.png" alt="Númenor">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle2">Númenor</h3>
+                <p data-i18n="saDesc2">L'isola di Númenor diventa la grande patria degli Edain, al centro della storia della Seconda Era.</p>
+            </div>
+        </article>
+        <!-- 3 -->
+
+
+        <!-- 03 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Espansione di Numenor.png" alt="Espansione di Númenor">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle3">Espansione di Númenor</h3>
+                <p data-i18n="saDesc3">I Númenóreani iniziano a esplorare e frequentare le coste della Terra di Mezzo, ampliando la loro influenza.</p>
+            </div>
+        </article>
+        <!-- 4 -->
+
+
+        <!-- 04 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Il ritorno di Sauron nella terra di mezzo.png" alt="Il ritorno di Sauron nella Terra di Mezzo">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle4">Il ritorno di Sauron nella Terra di Mezzo</h3>
+                <p data-i18n="saDesc4">Sauron torna nella Terra di Mezzo e comincia nuovamente a radunare potere e servitori.</p>
+            </div>
+        </article>
+        <!-- 5 -->
+
+
+        <!-- 05 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Eregion.png" alt="Eregion">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle5">Eregion</h3>
+                <p data-i18n="saDesc5">Gli Elfi fondano Eregion presso le Montagne Nebbiose, trasformandola in un grande centro di arti e forgiatura.</p>
+            </div>
+        </article>
+        <!-- 6 -->
+
+
+        <!-- 06 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Annatar e Celebrimbor.png" alt="Annatar e Celebrimbor">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle6">Annatar e Celebrimbor</h3>
+                <p data-i18n="saDesc6">Sauron, sotto le sembianze di Annatar, si presenta agli Elfi e conquista la fiducia di Celebrimbor.</p>
+            </div>
+        </article>
+        <!-- 7 -->
+
+
+        <!-- 07 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Forgiatura degli anelli del potere.png" alt="Forgiatura degli Anelli del Potere">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle7">Gli Anelli del Potere</h3>
+                <p data-i18n="saDesc7">Gli artigiani di Eregion forgiano gli Anelli del Potere sotto l'influenza degli insegnamenti di Annatar.</p>
+            </div>
+        </article>
+        <!-- 8 -->
+
+
+        <!-- 08 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Gli anelli elfici.png" alt="Gli Anelli Elfici">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle8">Gli Anelli Elfici</h3>
+                <p data-i18n="saDesc8">Celebrimbor e i fabbri elfici realizzano i Tre Anelli, destinati a preservare e proteggere ciò che è bello nella Terra di Mezzo.</p>
+            </div>
+        </article>
+        <!-- 9 -->
+
+
+        <!-- 09 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/La consegna degli anelli elfici.png" alt="La consegna degli Anelli Elfici">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle9">La consegna degli Anelli Elfici</h3>
+                <p data-i18n="saDesc9">I Tre Anelli vengono affidati ai grandi signori elfici e sottratti all'influenza diretta di Sauron.</p>
+            </div>
+        </article>
+        <!-- 10 -->
+
+
+        <!-- 10 -->
+        <!-- 11 -->
+
+
+        <!-- 11 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Sauron forgia l'unico.png" alt="Sauron forgia l'Unico">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle10">Sauron forgia l'Unico</h3>
+                <p data-i18n="saDesc10">Sauron forgia l'Unico Anello per dominare gli altri Anelli del Potere e i loro portatori.</p>
+            </div>
+        </article>
+        <!-- 12 -->
+
+
+        <!-- 12 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Invasione nell'Eriador.png" alt="Invasione nell'Eriador">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle11">Invasione nell'Eriador</h3>
+                <p data-i18n="saDesc11">Gli eserciti di Sauron invadono l'Eriador e avanzano contro i domini degli Elfi.</p>
+            </div>
+        </article>
+        <!-- 13 -->
+
+
+        <!-- 13 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Distruzione dell'Eregion.png" alt="Distruzione dell'Eregion">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle12">Fine dell'Eregion</h3>
+                <p data-i18n="saDesc12">Eregion viene devastata e Celebrimbor viene ucciso; la regione perde per sempre il suo ruolo di grande centro elfico.</p>
+            </div>
+        </article>
+        <!-- 14 -->
+
+
+        <!-- 14 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Sauron si impossessa dei nove anelli.png" alt="Sauron si impossessa dei Nove Anelli">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle13">Sauron si impossessa dei Nove Anelli</h3>
+                <p data-i18n="saDesc13">Sauron entra in possesso dei Nove Anelli destinati agli Uomini.</p>
+            </div>
+        </article>
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Sauron si ritira a Mordor.png" alt="Sauron si ritira a Mordor">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle14">Ritirata a Mordor</h3>
+                <p data-i18n="saDesc14">Dopo la guerra, Sauron concentra nuovamente il proprio potere nelle terre di Mordor.</p>
+            </div>
+        </article>
+        <!-- 15 -->
+
+
+        <!-- 15 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/La consegna dei nove.png" alt="La consegna dei Nove">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle15">La consegna dei Nove</h3>
+                <p data-i18n="saDesc15">I Nove Anelli vengono consegnati da Sauron a uomini potenti, che nel tempo diventeranno i Nazgûl.</p>
+            </div>
+        </article>
+        <!-- 16 -->
+
+
+        <!-- 16 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Numenoriani in soccorso degli elfi.png" alt="Númenóreani in soccorso degli Elfi">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle16">Númenóreani in soccorso degli Elfi</h3>
+                <p data-i18n="saDesc16">La grande flotta di Númenor giunge nella Terra di Mezzo e costringe Sauron a ritirarsi.</p>
+            </div>
+        </article>
+        <!-- 17 -->
+
+
+        <!-- 17 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Espansioni Numenoreane.png" alt="Espansioni Númenóreane">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle17">Espansioni Númenóreane</h3>
+                <p data-i18n="saDesc17">I Númenóreani consolidano la loro presenza sulle coste della Terra di Mezzo e fondano nuovi insediamenti.</p>
+            </div>
+        </article>
+        <!-- 18 -->
+
+
+        <!-- 18 -->
+        
+        <!-- 19 -->
+
+
+        <!-- 19 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Sauron conquista alcuni insediamenti numenoreani.png" alt="Sauron conquista alcuni insediamenti númenóreani">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle18">Sauron conquista acuni insediamenti</h3>
+                <p data-i18n="saDesc18">L'influenza di Sauron cresce nella Terra di Mezzo minacciando i domini númenóreani.</p>
+            </div>
+        </article>
+        <!-- 20 -->
+
+
+        <!-- 20 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Umbar.png" alt="Umbar">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle19">Umbar</h3>
+                <p data-i18n="saDesc19">Umbar diventa una delle grandi fortezze e basi navali dei Númenóreani nella Terra di Mezzo.</p>
+            </div>
+        </article>
+        <!-- 21 -->
+
+
+        <!-- 21 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Pelargir.png" alt="Pelargir">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle20">Pelargir</h3>
+                <p data-i18n="saDesc20">Pelargir viene fondata come grande porto dei Númenóreani Fedeli sulle rive dell'Anduin.</p>
+            </div>
+        </article>
+        <!-- 22 -->
+
+
+        <!-- 22 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Ar-Pharazon.png" alt="Ar-Pharazôn">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle21">Ar-Pharazôn</h3>
+                <p data-i18n="saDesc21">Ar-Pharazôn sale al trono di Númenor e diventa il più potente dei re dell'isola.</p>
+            </div>
+        </article>
+        <!-- 23 -->
+
+
+        <!-- 23 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Ar-Pharazon viene a sapere di Sauron.png" alt="Ar-Pharazôn viene a sapere di Sauron">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle22">Ar-Pharazôn viene a sapere di Sauron</h3>
+                <p data-i18n="saDesc22">Ar-Pharazôn apprende della crescente minaccia di Sauron e decide di affrontarlo</p>
+            </div>
+        </article>
+        <!-- 24 -->
+
+
+        <!-- 24 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Ar-Pharazon si prepara per lo scontro contro Sauron.png" alt="Ar-Pharazôn si prepara per lo scontro contro Sauron">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle23">Ar-Pharazôn prepara la sua armata</h3>
+                <p data-i18n="saDesc23">Il re di Númenor prepara una grande armata per sottomettere Sauron.</p>
+            </div>
+        </article>
+        <!-- 25 -->
+
+
+        <!-- 25 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Scontro Sauron e Ar-Pharazon.png" alt="Scontro Sauron e Ar-Pharazôn">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle24">Sauron e Ar-Pharazôn</h3>
+                <p data-i18n="saDesc24">Ar-Pharazôn giunge nella Terra di Mezzo e Sauron comprende di non poterlo sconfiggere con la forza.</p>
+            </div>
+        </article>
+        <!-- 26 -->
+
+
+        <!-- 26 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Sauron si consegna ad Ar-Pharazon.png" alt="Sauron si consegna ad Ar-Pharazôn">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle25">Sauron si consegna ad Ar-Pharazôn</h3>
+                <p data-i18n="saDesc25">Sauron sceglie di arrendersi volontariamente e si lascia condurre prigioniero a Númenor.</p>
+            </div>
+        </article>
+        <!-- 27 -->
+
+
+        <!-- 27 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Sauron viene portato a Numenor.png" alt="Sauron viene portato a Númenor">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle26">Sauron viene portato a Númenor</h3>
+                <p data-i18n="saDesc26">Sauron viene condotto nell'isola come prigioniero, ma prepara rapidamente la propria vendetta.</p>
+            </div>
+        </article>
+        <!-- 28 -->
+
+
+        <!-- 28 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Sauron inizia la corruzione.png" alt="Sauron inizia la corruzione">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle27">La corruzione di Sauron</h3>
+                <p data-i18n="saDesc27">Sauron conquista la fiducia di Ar-Pharazôn e inizia a corrompere la corte e la società di Númenor.</p>
+            </div>
+        </article>
+        <!-- 29 -->
+
+
+        <!-- 29 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Sauron induce Ar-Pharazon ad attaccare i Valar.png" alt="Sauron induce Ar-Pharazôn ad attaccare i Valar">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle28">Ar-Pharazôn contro i Valar</h3>
+                <p data-i18n="saDesc28">Sauron convince Ar-Pharazôn che la morte è un inganno e lo spinge contro Aman.</p>
+            </div>
+        </article>
+        <!-- 30 -->
+
+
+        <!-- 30 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Tensioni tra i popolani numenoreani.png" alt="Tensioni tra i popolani Númenóreani">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle29">Tensioni a Númenór</h3>
+                <p data-i18n="saDesc29">Nella società di Númenor cresce la frattura tra i Fedeli ai Valar e coloro che desiderano maggiore potere e dominio.</p>
+            </div>
+        </article>
+
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Amandil decide di partire per Aman.png" alt="Amandil decide di partire per Aman">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle30">la decisione di amandil</h3>
+                <p data-i18n="saDesc30">Amandil, padre di Elendil, decide di tentare una disperata navigazione verso Aman per chiedere aiuto ai Valar.</p>
+            </div>
+        </article>
+        <!-- 31 -->
+
+
+        <!-- 31 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Elendil prepara la spedizione.png" alt="Elendil prepara la spedizione">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle31">Elendil prepara la spedizione</h3>
+                <p data-i18n="saDesc31">Elendil prepara le navi dei Fedeli per fuggire da Númenor prima della sua inevitabile rovina.</p>
+            </div>
+        </article>
+        <!-- 32 -->
+
+
+        <!-- 32 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Amandil parte per Aman.png" alt="Amandil parte per Aman">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle32">Amandil parte per Aman</h3>
+                <p data-i18n="saDesc32">Amandil salpa verso occidente nel tentativo di raggiungere Aman e implorare la misericordia dei Valar.</p>
+            </div>
+        </article>
+        <!-- 33 -->
+
+
+        <!-- 33 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Ar-Pharazon parte per Aman.png" alt="Ar-Pharazôn parte per Aman">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle33">Ar-Pharazôn parte per Aman</h3>
+                <p data-i18n="saDesc33">Ar-Pharazôn salpa con la Grande Armata per Aman per ottenere l'immortalità.</p>
+            </div>
+        </article>
+        <!-- 34 -->
+
+
+        <!-- 34 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Ar-Pharazon sulle rive di Aman.png" alt="Ar-Pharazôn sulle rive di Aman">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle34">Ar-Pharazôn sulle rive di Aman</h3>
+                <p data-i18n="saDesc34">La flotta di Ar-Pharazôn raggiunge le rive di Aman, oltrepassando il limite imposto.</p>
+            </div>
+        </article>
+        <!-- 35 -->
+
+
+        <!-- 35 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Manwe si rivolge ad Eru.png" alt="Manwë si rivolge a Eru">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle35">Manwë si rivolge a Eru</h3>
+                <p data-i18n="saDesc35">Di fronte alla ribellione degli Uomini, Manwë invoca Eru Ilúvatar e affida a lui il destino di Arda.</p>
+            </div>
+        </article>
+        <!-- 36 -->
+
+
+        <!-- 36 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Eru estrapola.png" alt="Eru estrapola">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle36">Eru estrapola Aman</h3>
+                <p data-i18n="saDesc36">Eru interviene nella storia di Arda e ne muta la struttura, separando Aman dal mondo.</p>
+            </div>
+        </article>
+        <!-- 37 -->
+
+
+        <!-- 37 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Distruzione di Numenor e fuga di Elendil.png" alt="Distruzione di Númenor e fuga di Elendil">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle37">Distruzione di Númenor</h3>
+                <p data-i18n="saDesc37">Númenor viene sommersa e distrutta; Elendil e i Fedeli viaggiano verso la Terra di Mezzo.</p>
+            </div>
+        </article>
+        <!-- 38 -->
+
+
+        <!-- 38 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Sauron viene distrutto.png" alt="Sauron viene distrutto">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle38">Sauron viene distrutto</h3>
+                <p data-i18n="saDesc38">La distruzione di Númenor annienta il corpo di Sauron, ma non il suo spirito: l’Unico Anello rimane con lui.</p>
+            </div>
+        </article>
+        <!-- 39 -->
+
+
+        <!-- 39 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Sauron in spirito torna a Mordor.png" alt="Sauron in spirito torna a Mordor">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle39">Sauron in spirito torna a Mordor</h3>
+                <p data-i18n="saDesc39">sauron torna a mordor in spirito e si riorganizza.</p>
+            </div>
+        </article>
+        <!-- 40 -->
+
+
+        <!-- 40 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Sauron ricompone un corpo fittizio.png" alt="Sauron ricompone un corpo fittizio">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle40">il corpo di sauron</h3>
+                <p data-i18n="saDesc40">Sauron riesce nel tempo a ricostituire una forma fisica fittizia, non riavendo più il suo aspetto originario.</p>
+            </div>
+        </article>
+        <!-- 41 -->
+
+
+        <!-- 41 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Mappa spedizione Elendil.png" alt="Mappa spedizione Elendil">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle41">Mappa spedizione Elendil</h3>
+                <p data-i18n="saDesc41">La spedizione dei Fedeli si divide: Elendil raggiunge il nord, mentre Isildur e Anárion navigano verso il sud e l'Anduin.</p>
+            </div>
+        </article>
+        <!-- 42 -->
+
+
+        <!-- 43 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Gli Uomini delle Montagne al servizio di sauron.png" alt="Gli Uomini delle Montagne al servizio di Sauron">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle42">Gli Uomini delle Montagne</h3>
+                <p data-i18n="saDesc42">Gli Uomini delle Montagne riconoscono il potere di Sauron e gli prestano servizio.</p>
+            </div>
+        </article>
+        <!-- 43 -->
+
+
+        <!-- 42 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Costruzione di Arnor.png" alt="Costruzione di Arnor">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle43">Costruzione di Arnor</h3>
+                <p data-i18n="saDesc43">Elendil fonda Arnor nel nord e stabilisce il regno dei Dúnedain settentrionali.</p>
+            </div>
+        </article>
+        <!-- 44 -->
+
+
+        <!-- 44 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Costruzione di Gondor.png" alt="Costruzione di Gondor">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle44">Costruzione di Gondor</h3>
+                <p data-i18n="saDesc44">Isildur e Anárion fondano Gondor nel sud, dando vita al grande regno dei Dúnedain della Terra di Mezzo.</p>
+            </div>
+        </article>
+        <!-- 45 -->
+
+
+        <!-- 45 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Il giuramento a Isildur.png" alt="Giuramento a Isildur">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle45">Giuramento a Isildur</h3>
+                <p data-i18n="saDesc45">Il re degli Uomini delle Montagne giura fedeltà a Isildur presso la Pietra di Erech.</p>
+            </div>
+        </article>
+        <!-- 46 -->
+
+
+        <!-- 46 -->
+        <!-- 47 -->
+
+
+        <!-- 53 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Gil Galad ed Elendil contro Sauron.png" alt="Gil-galad ed Elendil contro Sauron">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle46">Gil-galad ed Elendil contro Sauron</h3>
+                <p data-i18n="saDesc46">Alla fine dell'assedio, Gil-galad ed Elendil affrontano direttamente Sauron alle pendici di Orodruin.</p>
+            </div>
+        </article>
+        <!-- 48 -->
+
+
+        <!-- 47 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Sauron conquista Minas Ithil.png" alt="Sauron conquista Minas Ithil">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle47">Sauron conquista Minas Ithil</h3>
+                <p data-i18n="saDesc47">Sauron attacca Gondor e conquista Minas Ithil, che diventa Minas Morgul molti anni dopo.</p>
+            </div>
+        </article>
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/La maledizione di Isildur.png" alt="La maledizione di Isildur">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle48">l'anatema di Isildur</h3>
+                <p data-i18n="saDesc48">Gli Uomini delle Montagne infrangono il giuramento; non troveranno pace fino a giuramento onorato.</p>
+            </div>
+        </article>
+        <!-- 49 -->
+
+
+        <!-- 48 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Alleanza a Imladris.png" alt="Alleanza a Imladris">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle49">Alleanza a Imladris</h3>
+                <p data-i18n="saDesc49">Elfi e Dúnedain si uniscono nella Last Alliance, mentre le forze alleate si concentrano a Imladris.</p>
+            </div>
+        </article>
+        <!-- 50 -->
+
+
+        <!-- 51 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Battaglia di Dagorlad.png" alt="Battaglia di Dagorlad">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle50">Battaglia di Dagorlad</h3>
+                <p data-i18n="saDesc50">La Last Alliance affronta le forze di Sauron nella grande Battaglia di Dagorlad e ottiene la vittoria.</p>
+            </div>
+        </article>
+        <!-- 51 -->
+
+
+        <!-- 50 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Alleanza marcia verso Barad-Dur.png" alt="Alleanza marcia verso Barad-Dûr">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle51">Alleanza marcia verso Barad-Dûr</h3>
+                <p data-i18n="saDesc51">L'esercito della Last Alliance attraversa la Terra di Mezzo e marcia verso Mordor.</p>
+            </div>
+        </article>
+        <!-- 52 -->
+
+
+        <!-- 52 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Assedio a Barad-Dur.png" alt="Assedio a Barad-Dûr">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle52">Assedio a Barad-Dûr</h3>
+                <p data-i18n="saDesc52">Dopo la vittoria a Dagorlad, le forze dell'Alleanza entrano in Mordor e assediano Barad-dûr per sette anni.</p>
+            </div>
+        </article>
+        <!-- 53 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Sauron contro Gil-galad ed Elendil.png" alt="Sauron contro Gil-galad ed Elendil">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle53">Sauron contro Gil-galad ed Elendil</h3>
+                <p data-i18n="saDesc53">Nel confronto finale, Sauron affronta Gil-galad ed Elendil e uccide entrambi i Re.</p>
+            </div>
+        </article>
+        <!-- 54 -->
+
+
+        <!-- 54 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Isildur sconfigge Sauron.png" alt="Isildur sconfigge Sauron">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle54">Isildur sconfigge Sauron</h3>
+                <p data-i18n="saDesc54">Isildur recide il dito di Sauron con il frammento dell'elsa di Narsil e prende l'Unico.</p>
+            </div>
+        </article>
+        <!-- 55 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Distruzione di Sauron.png" alt="Distruzione di Sauron">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle55">Distruzione di Sauron</h3>
+                <p data-i18n="saDesc55">Separato dall'Unico, Sauron perde il potere dell'Anello e il suo corpo viene distrutto.</p>
+            </div>
+        </article>
+        <!-- 56 -->
+
+
+        <!-- 55 -->
+        <article class="first-age-card">
+            <img src="Immagini 2° Era/Isildur e l'unico.png" alt="Isildur e l'Unico">
+            <div class="first-age-plaque">
+                <h3 data-i18n="saTitle56">Isildur e l'Unico</h3>
+                <p data-i18n="saDesc56">Isildur rimane in possesso dell'Unico Anello, mentre la Seconda Era giunge al termine.</p>
+            </div>
+        </article>
+        
+        
+
+        </div>
+
+    </section>
+
+</main>
+
+<div id="image-modal" class="image-modal">
+    <div class="image-modal-content">
+        <img id="modal-image" src="" alt="">
+
+        <div class="image-modal-actions">
+            <a id="download-image" href="" target="_blank">SCARICA</a>
+            <button id="close-modal">CHIUDI</button>
+        </div>
+    </div>
+</div>
+
+<script src="language.js"></script>
+
+<script>
+document.querySelectorAll('.first-age-card img').forEach(img => {
+    img.onclick = function() {
+        document.getElementById('modal-image').src = this.src;
+        document.getElementById('modal-image').alt = this.alt;
+        document.getElementById('download-image').href = this.src;
+        document.getElementById('download-image').download = this.src.split('/').pop();
+        document.getElementById('image-modal').style.display = 'flex';
+    };
+});
+
+document.getElementById('close-modal').onclick = function() {
+    document.getElementById('image-modal').style.display = 'none';
+};
+
+document.getElementById('image-modal').onclick = function(e) {
+    if (e.target === this) {
+        this.style.display = 'none';
+    }
+};
+</script>
+
+</body>
+</html>
